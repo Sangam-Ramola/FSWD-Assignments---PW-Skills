@@ -1,0 +1,96 @@
+body {
+    height: 100%;
+    background-color: aquamarine;
+  }
+  
+  h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  
+  .monitor{
+    font-size: 35px;
+    text-align: center;
+    display:none;
+ }
+  .laptop{
+    font-size: 35px;
+    text-align: center;
+    display: none;
+  }
+  .tablet{
+    font-size: 35px;
+    text-align: center;
+    display: none;
+  }
+  .mobile {
+    font-size: 35px;
+    text-align: center;
+    display: none;
+  }
+
+  
+  @media screen and (min-width: 0px) {
+    body {
+      background-color: crimson;
+    }
+  
+    .mobile {
+      display: block;
+    }
+  }
+  
+  @media screen and (min-width: 425px) and (max-width:768px){
+    body {
+      background-color: aqua;
+    }
+  
+    .mobile {
+      display: none;
+    }
+  
+    .tablet {
+      display: block;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width:1024px){
+    body {
+      background-color: rgb(180, 134, 20);
+    }
+  
+    .mobile {
+      display: none;
+    }
+  
+    .tablet {
+      display: none;
+    }
+  
+    .laptop {
+      display: block;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    body {
+      background-color: green;
+    }
+  
+    .mobile {
+      display: none;
+    }
+  
+    .tablet {
+      display: none;
+    }
+  
+    .laptop {
+      display: none;
+    }
+  
+    .monitor {
+      display: block;
+    }
+  }
+  
