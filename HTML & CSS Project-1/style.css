@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Rose', cursive;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("./Assets/background-\ image.png");
+    background-size: cover;
+    background-attachment: fixed;
+}  
+/* nav bar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    padding: 0 60px 0 60px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    list-style: none;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 22px;
+    color: #edc653;
+}
+.logo,
+.list-item {
+    cursor: pointer;
+}
+.button-small{
+    padding: 10px 35px;
+    background-color: rgb(208, 38, 38);
+    border: 1px;
+    font-family: "Red rose";
+    font-style: normal;
+    font-weight: 800px;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;   
+    cursor: pointer;
+    right: 40px;
+    
+}
+/* main section */
+.main{
+    max-width: 1154px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 120px;   
+}
+.main-heading{
+    font-family: 'Dela Gothic One', cursive;
+    text-align: justify;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 120px;
+    color: #edc653;
+    text-align: center;
+padding: 44px 400px 10px;
+line-height: 75px;   
+}
+.button-large{
+    background-color: rgb(208, 38, 38) ;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 40px;
+    color: white;
+    border: none;
+    padding: 20px 52px ;
+    margin-top: 66px;
+    cursor: pointer;
+    position: absolute;
+    left: 650px;
+}
+.bottom{
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+}
+
+    
+    
